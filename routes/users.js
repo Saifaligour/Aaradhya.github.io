@@ -26,16 +26,16 @@ router.post('/mail', function(req, res, next) {
     from : 'saifaligsa41@gmail.com',
     to : req.body.email,
     subject : req.body.subject,
-    text : `<h3>Hi</h3> ${req.body.name}
-             <p>thank you visit our website and </p>
-             <p>Thank to give a feedback  to us </p>
-             <p>we have seen  your feedback and analyse</p>
-             <p>orur team working on this they will contact to him </p>
-             <p> to this number <a> ${req.body.phone}</a>  please update it</p>
-              
+    text : `Hi ${req.body.name}
+             thank you visit our website and 
+             Thank to give a feedback  to us 
+             we have seen  your feedback and analyse
+             orur team working on this they will contact to him 
+             to this number <a> ${req.body.phone}</a>  please update it
+             
 
-              <h3>Thank's<h3/>
-              <p>Regad Md Saif<p/>
+            Thank's<h3/>
+            Regad Md Saif<p/>
              `,
   } 
   
