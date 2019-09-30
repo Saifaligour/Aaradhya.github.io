@@ -11,7 +11,7 @@ var transpoter = nodemailer.createTransport(smtptransport({
   requireTLS :true, 
     auth:{
     user:'saifaligsa41@gmail.com',
-    pass:'19196gsa$@!('
+    pass:'('
   }
 }));
 
